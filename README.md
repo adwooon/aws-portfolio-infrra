@@ -1,8 +1,8 @@
 # AWS Infrastructure Portfolio (CDK × Python)
-- **AWS CDK（Python）を使って構築したインフラ構成のポートフォリオです。**
-- **静的コンテンツは S3 と CloudFront を使ってホスティングし、**  
-- **的コンテンツは EC2 上でアプリケーションを稼働させる構成を想定しています。**
-- **VPC / EC2 / RDS / ALB / S3 / CloudFront などをIaCとして管理しています。**
+**AWS CDK（Python）を使って構築したインフラ構成のポートフォリオです。**  
+**静的コンテンツは S3 と CloudFront を使ってホスティングし、**  
+**的コンテンツは EC2 上でアプリケーションを稼働させる構成を想定しています。**  
+**VPC / EC2 / RDS / ALB / S3 / CloudFront などをIaCとして管理しています。**  
 
 ##  使用技術・サービス一覧
 

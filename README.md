@@ -23,7 +23,7 @@
 PowerShell上で以下を順に実行します：
 
 -- 仮想環境作成・起動  
-※ Windows の場合
+※ Windows の場合  
 python -m venv .venv  
 .venv\Scripts\Activate.ps1  
 ※ macOS / Linux の場合  

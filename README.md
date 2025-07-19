@@ -44,7 +44,7 @@ UserData を用いて EC2起動時に Apache を自動インストール
 
 CloudFront + S3 を使った静的ファイル高速配信
 
-EC2 → RDS、ALB → EC2、SSM → EC2 など最小限の通信のみ許可
+EC2 → RDS、ALB → EC2、SSM → EC2 など最小限の通信のみ許可(セキュリティグループ)
 
 RDS は RemovalPolicy.RETAIN を指定して、誤削除を防止
 

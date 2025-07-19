@@ -1,7 +1,7 @@
 # AWS Infrastructure Portfolio (CDK × Python)
 **AWS CDK（Python）を使って構築したインフラ構成のポートフォリオです。**  
 **静的コンテンツは S3 と CloudFront を使ってホスティングし、**  
-**的コンテンツは EC2 上でアプリケーションを稼働させる構成を想定しています。**  
+**動的コンテンツは EC2 上でアプリケーションを稼働させる構成を想定しています。**  
 **VPC / EC2 / RDS / ALB / S3 / CloudFront などをIaCとして管理しています。**  
 
 ##  使用技術・サービス一覧
@@ -22,20 +22,20 @@
 
 PowerShell上で以下を順に実行します：
 
--- 仮想環境作成・起動
+-- 仮想環境作成・起動  
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 
--- 依存ライブラリインストール
+-- 依存ライブラリインストール  
 pip install -r requirements.txt
 
--- CDK初期化（初回のみ）
+-- CDK初期化（初回のみ)  
 cdk bootstrap
 
--- CDKデプロイ（全スタック）
+-- CDKデプロイ（全スタック)  
 cdk deploy --all
 
-意識した点
+##  意識した点
 UserData を用いて EC2起動時に Apache を自動インストール
 
 CloudFront + S3 を使った静的ファイル高速配信
